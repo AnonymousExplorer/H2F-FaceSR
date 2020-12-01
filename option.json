@@ -1,0 +1,13 @@
+{
+    "LR_image_path": "LR",
+    "HR_image_path": "HR",
+    "shape_priors_path": "parsing_map",
+    "shape_priors_channel": 19,
+    "SR_image_path": "SR",
+    "pretrained_model_path": "model/H2F_CelebA.hdf5",
+    "LR_size": 16,
+    "HR_size": 128,
+    "rgb_range": 1,
+    "use_gpu": true,
+    "gpu_no": "0"
+}
