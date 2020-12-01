@@ -1,13 +1,10 @@
 # H2F-FaceSR
-## Visual Results
-<p align="center">
-  <img src="visual_results.png">
-</p>
 
 ## Dependencies
 - Python 3
 - [Tensorflow >= 2.1.0]
 - Python packages: `pip install numpy opencv-python matplotlib`
+
 ## Testing
 To generate SR images by a model:
 ```python
@@ -22,3 +19,8 @@ python H2F.py
   - whether to use gpu
   - other hyperparameters
  - PSNR and SSIM results will be in `/path/to/result/images/result.json`.
+ 
+## Visual Results
+<p align="center">
+  <img src="visual_results.png">
+</p>
